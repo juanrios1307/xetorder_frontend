@@ -8,8 +8,11 @@ import AppAbout from "../components/about";
 import AppFeature from "../components/aFeature";
 import AppWorks from "../components/works";
 import AppPricing from "../components/princing";
+import AppContact from "../components/contact";
+import AppFooter from "../components/footer";
 
 import { Layout } from 'antd';
+import {Footer} from "antd/es/layout/layout";
 
 const { Header, Content } = Layout;
 
@@ -27,7 +30,11 @@ class MainPage extends Component {
                     <AppFeature/>
                     <AppWorks/>
                     <AppPricing/>
+                    <AppContact/>
                 </Content>
+                <Footer>
+                    <AppFooter/>
+                </Footer>
             </Layout>
         );
     }
