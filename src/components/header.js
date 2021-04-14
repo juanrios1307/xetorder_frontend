@@ -31,7 +31,7 @@ function AppHeader() {
                       <Link href="#works" title="Demo" />
                       <Link href="#pricing" title="Membresías" />
                       <Link href="#contact" title="Contacto" />
-                      <Link href="#" title="Iniciar Sesión" />
+                      <Link href="/login" refresh="true" title="Iniciar Sesión" />
                   </Anchor>
               </div>
               <div className="mobileVisible">
@@ -51,7 +51,7 @@ function AppHeader() {
                           <Link href="#works" title="Demo" />
                           <Link href="#pricing" title="Membresías" />
                           <Link href="#contact" title="Contacto" />
-                          <Link href="#" title="Iniciar Sesión" />
+                          <Link href="/login" refresh="true" title="Iniciar Sesión" />
                       </Anchor>
                   </Drawer>
               </div>
