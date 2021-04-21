@@ -54,6 +54,12 @@
     padding: 20px;
 }
 
+.logo img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: -7px;
+}
+
 .login-content img{
     height: 100px;
 }
@@ -174,7 +180,7 @@
     border-radius: 25px;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, #14788d, #38d39f, #32be8f);
+    background-image: linear-gradient(to right, #0a4e5c, #2779a0, #b7c8d0);
     background-size: 200%;
     font-size: 1.2rem;
     color: #fff;

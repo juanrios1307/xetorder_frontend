@@ -6,25 +6,26 @@ import Deliveries from '../../assets/images/undraw_deliveries_131a.svg';
 
 
 
-function AppLogin() {
+function AppRegister() {
     return (
 
-    <div className="body">
-    <img className="wave" src={Wave} alt="wave.png"/>
-        <div className="container">
-            <div className="img">
-                <img src={Deliveries} alt="logistic.svg"/>
-            </div>
-            <div className="login-content">
-                <form className="form">
-                    <img src={DashImg} alt="logo.svg"/>
-                        <h2 className="title">Bienvenido</h2>
+        <div className="body">
+            <img className="wave" src={Wave} alt="wave.png"/>
+            <div className="container">
+                <div className="img">
+                    <img src={Deliveries} alt="logistic.svg"/>
+                </div>
+                <div className="login-content">
+                    <form className="form">
+                        <img src={DashImg} alt="logo.svg"/>
+                        <h2 className="title">Registrate</h2>
                         <div className="input-div one">
                             <div className="i">
                                 <i className="fas fa-user"></i>
                             </div>
                             <div className="div">
-                                <input type="text" className="input" placeholder="Nombre de Usuario"/>
+                                <h5>Nombre de Usuario</h5>
+                                <input type="text" className="input"/>
                             </div>
                         </div>
                         <div className="input-div pass">
@@ -32,17 +33,18 @@ function AppLogin() {
                                 <i className="fas fa-lock"></i>
                             </div>
                             <div className="div">
-                                <input type="password" className="input" placeholder="Contraseña"/>
+                                <h5>Contraseña</h5>
+                                <input type="password" className="input"/>
                             </div>
                         </div>
                         <a href="/" className="a">¿Olvidaste tu contraseña?</a>
-                        <a href="/" className="a">¿No tienes una cuenta?</a>
+                        <a href="/" className="a">¿Ya tienes una cuenta?</a>
                         <input type="submit" className="btn" value="Login"/>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
     );
 }
 
-export default AppLogin;
+export default AppRegister;

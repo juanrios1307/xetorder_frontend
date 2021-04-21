@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { Anchor, Drawer, Button } from 'antd';
+import Logo from "../../assets/images/logo/favicon.ico";
 
 const { Link } = Anchor;
 
@@ -20,8 +21,8 @@ function HeaderLogin() {
         <div className="container-fluid">
             <div className="header">
                 <div className="logo">
-                    <i className="fas fa-expand-arrows-alt"></i>
-                    <a href="http://www.google.com">Xeta Order</a>
+                    <img src={Logo}/>
+                    <a href="/">Xeta Order</a>
                 </div>
                 <div className="mobileHidden">
                     <Anchor targetOffset="65">
