@@ -20,7 +20,7 @@ function RegisterP2() {
                         <h2 className="title">Registra tu empresa</h2>
                         <div className="input-div one">
                             <div className="i">
-                                <i className="fas fa-user"></i>
+                                <i className="fas fa-building"></i>
                             </div>
                             <div className="div">
                                 <input type="text" className="input" placeholder="Nombre de la empresa"/>
@@ -28,7 +28,7 @@ function RegisterP2() {
                         </div>
                         <div className="input-div one">
                             <div className="i">
-                                <i className="fas fa-user"></i>
+                                <i className="fas fa-location-arrow"></i>
                             </div>
                             <div className="div">
                                 <input type="text" className="input" placeholder="Dirección"/>

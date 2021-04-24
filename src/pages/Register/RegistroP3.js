@@ -28,7 +28,7 @@ function RegisterP3() {
                         </div>
                         <div className="input-div one">
                             <div className="i">
-                                <i className="fas fa-user"></i>
+                                <i className="fas fa-lock"></i>
                             </div>
                             <div className="div">
                                 <input type="password" className="input" placeholder="Contraseña"/>
@@ -36,7 +36,7 @@ function RegisterP3() {
                         </div>
                         <div className="input-div one">
                             <div className="i">
-                                <i className="fas fa-user"></i>
+                                <i className="fas fa-envelope"></i>
                             </div>
                             <div className="div">
                                 <input type="email" className="input" placeholder="Correo electrónico"/>
@@ -44,7 +44,7 @@ function RegisterP3() {
                         </div>
                         <div className="input-div one">
                             <div className="i">
-                                <i className="fas fa-user"></i>
+                                <i className="fas fa-phone"></i>
                             </div>
                             <div className="div">
                                 <input type="telephone" className="input" placeholder="Teléfono"/>
