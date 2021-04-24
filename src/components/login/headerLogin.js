@@ -21,7 +21,7 @@ function HeaderLogin() {
         <div className="container-fluid">
             <div className="header">
                 <div className="logo">
-                    <img src={Logo}/>
+                    <img src={Logo} alt="logo.png"/>
                     <a href="/">Xeta Order</a>
                 </div>
                 <div className="mobileHidden">

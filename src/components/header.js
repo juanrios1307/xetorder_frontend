@@ -22,17 +22,17 @@ function AppHeader() {
       <div className="container-fluid">
           <div className="header">
               <div className="logo">
-                  <img src={Logo}/>
+                  <img src={Logo} alt="logo.png"/>
                   <a href="/">Xeta Order</a>
               </div>
               <div className="mobileHidden">
                   <Anchor targetOffset="65">
-                      <Link href="#hero" title="Home" />
-                      <Link href="#about" title="¿Quiénes somos?" />
-                      <Link href="#feature" title="¿Qué ofrecemos?" />
-                      <Link href="#works" title="Demo" />
-                      <Link href="#pricing" title="Membresías" />
-                      <Link href="#contact" title="Contacto" />
+                      <Link href="/" title="Home" />
+                      <Link href="/#about" title="¿Quiénes somos?" />
+                      <Link href="/#feature" title="¿Qué ofrecemos?" />
+                      <Link href="/#works" title="Demo" />
+                      <Link href="/#pricing" title="Membresías" />
+                      <Link href="/#contact" title="Contacto" />
                       <Link href="/login" refresh="true" title="Iniciar Sesión" />
                   </Anchor>
               </div>
@@ -47,12 +47,12 @@ function AppHeader() {
                       visible={visible}
                   >
                       <Anchor targetOffset="65">
-                          <Link href="#hero" title="Home" />
-                          <Link href="#about" title="Quiénes somos" />
-                          <Link href="#feature" title="Qué ofrecemos" />
-                          <Link href="#works" title="Demo" />
-                          <Link href="#pricing" title="Membresías" />
-                          <Link href="#contact" title="Contacto" />
+                          <Link href="/" title="Home" />
+                          <Link href="/#about" title="Quiénes somos" />
+                          <Link href="/#feature" title="Qué ofrecemos" />
+                          <Link href="/#works" title="Demo" />
+                          <Link href="/#pricing" title="Membresías" />
+                          <Link href="/#contact" title="Contacto" />
                           <Link href="/login" refresh="true" title="Iniciar Sesión" />
                       </Anchor>
                   </Drawer>

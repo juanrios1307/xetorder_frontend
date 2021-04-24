@@ -8,7 +8,7 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    height: auto;
 }
 
 .wave{
@@ -49,9 +49,10 @@
 
 .form{
     width: 360px;
-    background: white;
+    background: transparent;
     border-radius: 20px ;
     padding: 20px;
+    margin-top: -100px;
 }
 
 .logo img{
@@ -81,7 +82,7 @@
 }
 
 .login-content .input-div.one{
-    margin-top: 0;
+    margin-top: -8px;
 }
 
 .i{
@@ -157,7 +158,7 @@
 }
 
 .input-div.pass{
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .a{
@@ -194,6 +195,29 @@
     background-position: right;
 }
 
+.btnR{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #0a4e5c, #2779a0, #b7c8d0);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 10px;
+}
+.btnR:hover{
+    background-position: right;
+    color: white;
+}
+
 
 @media screen and (max-width: 1050px){
     .container{
@@ -201,7 +225,7 @@
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1030px){
     .form{
         width: 290px;
     }
@@ -216,7 +240,7 @@
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1056px){
     .container{
         grid-template-columns: 1fr;
     }
@@ -270,9 +294,25 @@
 
     .login-content{
         justify-content: center;
-        width: 210px;
+        width: 225px;
     }
     .form{
-        width: 250px;
+        width: 300px;
     }
 }
+
+-->
+
+.paso2 {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.paso2 h2 {
+    display: inline-block;
+    font-family: Roboto;
+    z-index: -1;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+

@@ -36,7 +36,7 @@ function AppLogin() {
                             </div>
                         </div>
                         <a href="/" className="a">¿Olvidaste tu contraseña?</a>
-                        <a href="/" className="a">¿No tienes una cuenta?</a>
+                        <a href="/selectplan" className="a">¿No tienes una cuenta?</a>
                         <input type="submit" className="btn" value="Login"/>
                 </form>
             </div>
