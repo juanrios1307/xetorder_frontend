@@ -4,7 +4,7 @@ import {List, Card, Button} from 'antd';
 
 const data = [
     {
-        title: 'Basic',
+        title: 'Emprendedor',
         content: [
             {
                 price: '£29.99',
@@ -17,7 +17,7 @@ const data = [
         ]
     },
     {
-        title: 'Premium',
+        title: 'Empresarial',
         content: [
             {
                 price: '£59.99',
@@ -30,7 +30,7 @@ const data = [
         ]
     },
     {
-        title: 'Enterprise',
+        title: 'Premium Empresarial',
         content: [
             {
                 price: '£99.99',
@@ -49,8 +49,7 @@ function AppPricing() {
         <div id="pricing" className="block pricingBlock bgGray">
             <div className="container-fluid">
                 <div className="titleHolder">
-                    <h2>Choose a plan to fit your needs</h2>
-                    <p>Debitis itaque minima dolorum fuga aperiam inventore, quidem enim</p>
+                    <h2>Escoge un plan que se ajuste a las necesidades de tu empresa</h2>
                 </div>
                 <List
                     grid={{

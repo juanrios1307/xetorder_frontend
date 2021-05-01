@@ -8,7 +8,7 @@ function AppContact() {
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Contáctanos</h2>
-                    <p>Dolore nam rerum obcaecati fugit odio nobis Moletiae rerum</p>
+                    <p>Escríbenos y estaremos atentos para resolver cualquier duda que tengas acerca de nuestro servicio</p>
                 </div>
                 <Form
                     name="normal_login"

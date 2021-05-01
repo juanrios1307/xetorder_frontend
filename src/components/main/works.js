@@ -23,7 +23,7 @@ class AppWorks extends React.Component {
             <div id="works" className="block worksBlock">
                 <div className="container-fluid">
                     <div className="titleHolder">
-                        <h2>How it works</h2>
+                        <h2>¿Cómo funciona?</h2>
                         <p>Perspiciatis vero similique, ut ducimus modi ipsam autem tempora</p>
                     </div>
                     <div className="contentHolder">

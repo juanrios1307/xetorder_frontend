@@ -4,21 +4,18 @@ import {Row, Col} from "antd";
 const items = [
     {
         key: '1',
-        icon: <i className="fas fa-chart-pie"></i>,
-        title: 'High Performance',
-        content: 'cu nostro dissentias consectetuer mel. ut admodum conceptam mei cu eam tation fabulas abhorreant. His ex mandamus.',
+        icon: <i className="fas fa-tachometer-alt"></i>,
+        title: 'Agilizar procesos',
     },
     {
         key: '2',
-        icon: <i className="fas fa-desktop"></i>,
-        title: 'Flat Design',
-        content: 'cu nostro dissentias consectetuer mel. ut admodum conceptam mei cu eam tation fabulas abhorreant. His ex mandamus.',
+        icon: <i className="fas fa-hourglass-half"></i>,
+        title: 'Aumenta la eficiencia de la empresa',
     },
     {
         key: '3',
-        icon: <i className="fas fa-database"></i>,
-        title: 'Simplified Workflow',
-        content: 'cu nostro dissentias consectetuer mel. ut admodum conceptam mei cu eam tation fabulas abhorreant. His ex mandamus.'
+        icon: <i className="fas fa-money-bill-wave"></i>,
+        title: 'Reduce gastos',
     },
 ]
 
@@ -28,10 +25,10 @@ function AppAbout() {
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Sobre Nosotros</h2>
-                    <p>Xeta Order : Software de gestion</p>
+                    <p>Xeta Order : Software de gestión</p>
                 </div>
                 <div className="contentHolder">
-                    <p>Xeta Order es un software de toma de pedidos y de gestion de inventario enfocado para pequeños y medianos restaurantes</p>
+                    <p>Xeta order es un software que permite a emprendedores pequeños o medianos relacionados con el área de alimentación y comercio, realizar una gestión de inventarios, estadísticas y toma de pedidos de forma inmediata, agilizando así estos procesos y mejorando la eficiencia de un negocio. </p>
                 </div>
                 <Row gutter={[16, 16]}>
                     {items.map(item => {
