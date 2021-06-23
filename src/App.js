@@ -6,6 +6,7 @@ import RegisterPage from "./pages/Register/RegisterPage";
 import RegisterP1 from "./pages/Register/RegisterP1";
 import RegisterP2 from "./pages/Register/RegisterP2";
 import RegisterP3 from "./pages/Register/RegistroP3";
+import Dashboard from "./pages/Dashboard";
 
 class App extends React.Component {
     render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
                     <Route exact path="/selectplan" component={RegisterP1}/>
                     <Route exact path="/register2" component={RegisterP2}/>
                     <Route exact path="/register3" component={RegisterP3}/>
+                    <Route exact path="/home" component={Dashboard}/>
                 </Switch>
             </Router>
 
