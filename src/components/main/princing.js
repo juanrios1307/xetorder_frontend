@@ -71,13 +71,18 @@ function AppPricing() {
                                 <p>{item.content[0].support}</p>
                                 <p>{item.content[0].backup}</p>
                                 <p>{item.content[0].access}</p>
-                                <Button type="primary" size="large"><i className="fab fa-telegram-plane"></i> Get Started</Button>
+                                <a href="https://biz.payulatam.com/B0dce65A17B4177">
+                                    <Button type="primary" size="large"><i className="fab fa-telegram-plane"></i> Get Started </Button>
+                                </a>
                             </Card>
                         </List.Item>
                     )}
                 />
             </div>
+
+
         </div>
+
     );
 }
 
